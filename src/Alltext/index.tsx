@@ -9,6 +9,8 @@ export const Alltextinfo={
     reenterpassword:"Re-enter your password",
     usernametype:"text",
     passwordtype:"password",
+    emailtype:"email",
+    reenterpasswordtype:"renterpassword",
     usernameplaceholder:"Enter your username",
     passwordplaceholder:"Enter your password",
     renterpasswordplaceholder:"Re-enter your password",
@@ -21,6 +23,8 @@ export const Alltextinfo={
     registertext:"Register Here",
     usernameerror:"Please enter a valid username!",
     passworderror:"you have to enter at least 8 digit!",
+    emailerror:"Please enter a valid email",
+    repasserror:"Password doesnot match"
 }
 export const Textcolorcode={
     normalfont:"18px",

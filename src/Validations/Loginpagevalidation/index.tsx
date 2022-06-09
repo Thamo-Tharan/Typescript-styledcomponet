@@ -8,3 +8,8 @@ export const Loginpasswordvalidation=(inputtext: string)=>{
     console.log(passwordRegex);
     return passwordRegex;
 }
+
+export const Loginemailvalidation=(inputtext:string)=>{
+    let emailregex=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    return emailregex.test(inputtext);
+}

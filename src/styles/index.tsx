@@ -14,7 +14,8 @@ interface styledprops{
   titlecolor?:string,
   buttoncolor?:string,
   buttoncursor?:string,
-  imagemargin?:string
+  imagemargin?:string,
+  inputid?:string
 }
 export const Title = styled.p<styledprops>`
   font-size: ${(styledprops)=>styledprops.fontsize};
@@ -40,6 +41,7 @@ export const Label=styled.label<styledprops>`
 export const Textinput=styled.input<styledprops>`
  placeholder:${(styledprops)=>styledprops.placeholder};
  type:${(styledprops)=>styledprops.inputype};
+ id:${(styledprops)=>styledprops.inputid};
  padding: 10px;
  border-radius: 5px;
  border: 1px solid gray;
